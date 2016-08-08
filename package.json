@@ -4,7 +4,8 @@
   "description": "A wikipedia clone for FSA.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e html,js,css ./app.js"
   },
   "author": "Eliot S & Justin Y",
   "license": "ISC"

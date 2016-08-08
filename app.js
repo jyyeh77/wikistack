@@ -7,6 +7,7 @@ var fs = require('fs');
 var path = require('path');
 var bodyParser = require('body-parser');
 var socketio = require('socket.io');
+var models = require('./models');
 
 
 // templating boilerplate setup
@@ -32,3 +33,4 @@ var server = app.listen(1337, function(){
 });
 
 app.use(express.static('public'));
+app.use('/', router);
