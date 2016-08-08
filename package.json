@@ -1,0 +1,11 @@
+{
+  "name": "wikistack",
+  "version": "1.0.0",
+  "description": "A wikipedia clone for FSA.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eliot S & Justin Y",
+  "license": "ISC"
+}
